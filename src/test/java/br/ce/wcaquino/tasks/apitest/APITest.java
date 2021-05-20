@@ -30,7 +30,7 @@ public class APITest {
 	@Test
 	public void deveAdicionarTaskComSucesso() {
 		given()
-			.body("{\"task\": \"Teste via API\", \"dueDate\": \"2021-05-19\"}")
+			.body("{\"task\": \"Teste via API\", \"dueDate\": \"2022-05-20\"}")
 			.contentType(ContentType.JSON)
 		.when()
 			.post("/todo")
